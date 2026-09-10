@@ -25,5 +25,5 @@ During the pre-training stage, a deep classification head is added to the model,
 
 # Dataset and Data pre-processing
 
-The multi-omics data used for pre-training and downstream tasks were all downloaded from public sources. The processed data are available at https://zenodo.org/records/10944664.
-
+The multi-omics data used for pre-training and downstream tasks were all downloaded from public sources. The processed data are available at 
+(https://www.kaggle.com/datasets/xiaozhuang1/tmonetplus)
