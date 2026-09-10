@@ -27,3 +27,7 @@ During the pre-training stage, a deep classification head is added to the model,
 
 The multi-omics data used for pre-training and downstream tasks were all downloaded from public sources. The processed data are available at 
 (https://www.kaggle.com/datasets/xiaozhuang1/tmonetplus)
+
+
+# Acknowledgements
+We sincerely thank the authors of TMO-Net (Wang et al., Genome Biology, 2024) for openly releasing their pre-trained model, code, and multi-omics data processing pipeline. TMO-Net provided an important foundation and architectural reference for this work, enabling the development and downstream evaluation of TMO-Net+. The open-source code is available at https://github.com/FengAoWang/TMO-Net. We also acknowledge TCGA and other public data resources, as well as the open-source tools used in this study.
