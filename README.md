@@ -18,4 +18,5 @@ MoE consists of multiple expert networks and a centralized gating network. Each 
 
 Supervised Classification Head and Tailored Loss Function
 During the pre-training stage, a deep classification head is added to the model, and both a contrastive loss (pulling same-class samples together and pushing different-class samples apart, with Euclidean or cosine distance as the distance metric) and a cross-entropy classification loss are optimized simultaneously. These two losses jointly guide the latent space to form a more discriminative inter-class separation structure.
+<img width="1490" height="678" alt="network" src="https://github.com/user-attachments/assets/e3622606-8eae-4a9e-aa02-4a48990c7311" />
 
