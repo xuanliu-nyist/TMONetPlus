@@ -23,4 +23,7 @@ MoE consists of multiple expert networks and a centralized gating network. Each 
 During the pre-training stage, a deep classification head is added to the model, and both a contrastive loss (pulling same-class samples together and pushing different-class samples apart, with Euclidean or cosine distance as the distance metric) and a cross-entropy classification loss are optimized simultaneously. These two losses jointly guide the latent space to form a more discriminative inter-class separation structure.
 <img width="1490" height="678" alt="network" src="https://github.com/user-attachments/assets/db70ba97-5df5-41eb-b1de-4e2a6afc0ecb" />
 
+# Dataset and Data pre-processing
+
+The multi-omics data used for pre-training and downstream tasks were all downloaded from public sources. The processed data are available at https://zenodo.org/records/10944664.
 
